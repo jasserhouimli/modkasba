@@ -13,9 +13,8 @@ namespace api.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Hello World");
+            return new JsonResult(new { message = "Hello World" });
         }
-        
 
         [HttpPost]
         public IActionResult Post([FromBody] User user)
