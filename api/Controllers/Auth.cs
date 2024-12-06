@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace api.Controllers
 {
     [ApiController]
@@ -11,7 +12,7 @@ namespace api.Controllers
     public class Auth : ControllerBase
     {
         [HttpPost]
-        public IActionResult Login(LoginRequest request)
+        public IActionResult Login()
         {
             return Ok("Hello Auth");
         }
