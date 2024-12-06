@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sleep\\Downloads\\weproject6\\api\\api.csproj": {}
+    "C:\\Users\\Louay\\Desktop\\LJ PROJECT\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sleep\\Downloads\\weproject6\\api\\api.csproj": {
+    "C:\\Users\\Louay\\Desktop\\LJ PROJECT\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sleep\\Downloads\\weproject6\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\Louay\\Desktop\\LJ PROJECT\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\sleep\\Downloads\\weproject6\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\sleep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sleep\\Downloads\\weproject6\\api\\obj\\",
+        "projectPath": "C:\\Users\\Louay\\Desktop\\LJ PROJECT\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\Louay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Louay\\Desktop\\LJ PROJECT\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sleep\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Louay\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
