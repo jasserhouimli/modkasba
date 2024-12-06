@@ -1,6 +1,6 @@
-# Ignore bin and obj directories
-bin/
-obj/
+# Ignore bin and obj directories under the api folder
+api/bin/
+api/obj/
 
 # Other common ignores
 *.user
