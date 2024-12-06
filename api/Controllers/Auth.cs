@@ -14,7 +14,7 @@ namespace api.Controllers
         [HttpPost]
         public IActionResult Login()
         {
-            return Ok("Hello Auth");
+            return Ok("Hello Auth is here");
         }
     }
 }
