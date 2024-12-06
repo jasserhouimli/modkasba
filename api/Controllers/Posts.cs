@@ -4,17 +4,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class Auth : ControllerBase
+    public class Posts : ControllerBase
     {
-        [HttpPost]
-        public IActionResult Login()
+        [HttpGet]
+        public IActionResult Get()
         {
-            return Ok("Hello AUth uss");
+            return Ok("Hello Posts ");
         }
     }
 }
