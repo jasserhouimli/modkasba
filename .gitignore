@@ -1,6 +1,8 @@
 # Ignore bin and obj directories under the api folder
 api/bin/
 api/obj/
+api/app.db-shm
+api/app.db-wal
 
 # Other common ignores
 *.user
