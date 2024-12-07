@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 
 interface User {
   id: number;
@@ -7,9 +8,28 @@ interface User {
   age: number;
 }
 
-const Users = async () => {
-  const response = await fetch("http://localhost:5084/api/User");
-  const data = await response.json();
+const Users = () => {
+  const [data, setData] = useState<User[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch("http://localhost:5084/api/User");
+      const result = await response.json();
+      setData(result);
+      setLoading(false);
+    };
+
+    fetchData();
+  }, []);
+
+  if (loading)
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <span className="loading loading-infinity loading-lg"></span>
+      </div>
+    );
+
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <h1 className="text-2xl font-bold">Users</h1>

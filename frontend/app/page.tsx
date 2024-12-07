@@ -1,5 +1,5 @@
 import Profile from "./profile/page";
 
 export default function Home() {
-  return <Profile />;
+  return <div>Home</div>;
 }
