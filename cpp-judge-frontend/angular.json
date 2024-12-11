@@ -85,7 +85,13 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon",
+                "output": "/assets/codicons/"
+              }
+
             ],
             "styles": [
               "src/styles.css"
